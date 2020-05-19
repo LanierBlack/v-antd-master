@@ -5,6 +5,16 @@
       <span>+</span>
       <img width="160" src="https://qn.antdv.com/vue.png">
     </div>
+    <a-button type="primary">
+      Primary
+    </a-button>
+    <a-button>Default</a-button>
+    <a-button type="dashed">
+      Dashed
+    </a-button>
+    <a-button type="danger">
+      Danger
+    </a-button>
   </div>
 </template>
 

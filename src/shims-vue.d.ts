@@ -4,6 +4,6 @@ declare module '*.vue' {
 }
 declare module 'ant-design-vue' {
   const Ant: any
-  export default Ant;
+  export default Ant
 }
 declare module 'register-service-worker'

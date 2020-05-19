@@ -3,7 +3,7 @@ import { Component, Vue } from 'vue-property-decorator'
 import Header from '@/components/common/Header.vue'
 @Component({})
 export default class App extends Vue {
-  public render () {
+  public render() {
     // template
     return (
       <div app>

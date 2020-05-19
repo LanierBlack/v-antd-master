@@ -4,7 +4,7 @@ import Index from '../views/Index.vue'
 
 Vue.use(VueRouter)
 
-const routes: Array<RouteConfig> = [
+const routes: RouteConfig[] = [
   {
     path: '/',
     name: 'Index',

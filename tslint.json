@@ -1,7 +1,7 @@
 {
   "defaultSeverity": "warning",
   "extends": [
-     "tslint:recommended"
+    "tslint:recommended"
   ],
   "linterOptions": {
     "exclude": [
@@ -9,13 +9,21 @@
     ]
   },
   "rules": {
-    "quotemark": [true, "single"],
     "indent": [true, "spaces", 2],
     "interface-name": false,
-    "ordered-imports": false,
-    "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
-    "no-console": false,
-    "variable-name": false
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single"],
+    "semicolon":[true, "never", "ignore-interfaces"], //分号的使用规则
+    "trailing-comma": [true, { //对尾随逗号的校验
+      "multiline": {
+        "objects": "ignore",
+        "arrays": "never",
+        "functions": "never",
+        "typeLiterals": "ignore"
+      },
+      "esSpecCompliant": true //是否允许尾随逗号出现在剩余变量中
+    }]
   }
 }
